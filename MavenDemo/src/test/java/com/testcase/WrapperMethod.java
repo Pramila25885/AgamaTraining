@@ -23,7 +23,7 @@ public class WrapperMethod {
 	public void insertapp(String url) {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(url);
 	}
