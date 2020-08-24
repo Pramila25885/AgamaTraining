@@ -19,6 +19,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class WrapperMethod {
 
 	WebDriver driver;
+	
+	
 
 	public void insertapp(String url) {
 		WebDriverManager.chromedriver().setup();
