@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcase.ClickAndHold">
+      <class name="com.TestNG.DifferentURL">
         <methods>
-          <include name="actionOn"/>
+          <include name="orangeHRM"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="facebook"/>
         </methods>
-      </class> <!-- com.testcase.ClickAndHold -->
+      </class> <!-- com.TestNG.DifferentURL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-24T12:00:32 EDT" name="Suite" finished-at="2020-08-24T12:00:43 EDT" duration-ms="10603">
+  <suite started-at="2020-08-25T16:33:13 EDT" name="Suite" finished-at="2020-08-25T16:33:30 EDT" duration-ms="16336">
     <groups>
     </groups>
-    <test started-at="2020-08-24T12:00:32 EDT" name="Test" finished-at="2020-08-24T12:00:43 EDT" duration-ms="10603">
-      <class name="com.TestNG.Orangehrm">
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:com.TestNG.Orangehrm@33afa13b]" started-at="2020-08-24T12:00:32 EDT" name="LaunchApp" finished-at="2020-08-24T12:00:41 EDT" duration-ms="8215" status="PASS">
+    <test started-at="2020-08-25T16:33:13 EDT" name="TestOnChrome" finished-at="2020-08-25T16:33:27 EDT" duration-ms="14136">
+      <class name="com.TestNG.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.CrossBrowser@18ce0030]" started-at="2020-08-25T16:33:13 EDT" name="setup" finished-at="2020-08-25T16:33:19 EDT" duration-ms="5400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchApp -->
-        <test-method signature="Login()[pri:0, instance:com.TestNG.Orangehrm@33afa13b]" started-at="2020-08-24T12:00:41 EDT" name="Login" finished-at="2020-08-24T12:00:43 EDT" duration-ms="2250" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="facebook()[pri:0, instance:com.TestNG.CrossBrowser@18ce0030]" started-at="2020-08-25T16:33:19 EDT" name="facebook" finished-at="2020-08-25T16:33:22 EDT" duration-ms="3361" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.TestNG.Orangehrm@33afa13b]" started-at="2020-08-24T12:00:43 EDT" name="CloseApp" finished-at="2020-08-24T12:00:43 EDT" duration-ms="89" status="PASS">
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.CrossBrowser@18ce0030]" started-at="2020-08-25T16:33:22 EDT" name="tearDown" finished-at="2020-08-25T16:33:27 EDT" duration-ms="5299" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseApp -->
-      </class> <!-- com.TestNG.Orangehrm -->
-    </test> <!-- Test -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.CrossBrowser -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2020-08-25T16:33:13 EDT" name="TestOnFireFox" finished-at="2020-08-25T16:33:30 EDT" duration-ms="16336">
+      <class name="com.TestNG.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.CrossBrowser@1ed1993a]" started-at="2020-08-25T16:33:13 EDT" name="setup" finished-at="2020-08-25T16:33:22 EDT" duration-ms="8962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebook()[pri:0, instance:com.TestNG.CrossBrowser@1ed1993a]" started-at="2020-08-25T16:33:22 EDT" name="facebook" finished-at="2020-08-25T16:33:28 EDT" duration-ms="5286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.CrossBrowser@1ed1993a]" started-at="2020-08-25T16:33:28 EDT" name="tearDown" finished-at="2020-08-25T16:33:30 EDT" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.CrossBrowser -->
+    </test> <!-- TestOnFireFox -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test  name="TestFacebook">
+  <parameter name="UrlName" value="facebook"></parameter>
+    <classes>
+      <class name="com.TestNG.DifferentURL"/>
+    </classes>
+  </test>
+  <test  name="TestOrangeHRM">
+  <parameter name="UrlName" value="OrangeHrm"></parameter>
+    <classes>
+      <class name="com.TestNG.DifferentURL"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
